@@ -1,0 +1,18 @@
+{
+  "name": "cryptoipl",
+  "version": "1.0.0",
+  "description": "an ethereum ipl game",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dheeraj Pal",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^4.0.6",
+    "zeppelin-solidity": "^1.6.0"
+  }
+}
