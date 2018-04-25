@@ -227,7 +227,7 @@ contract CryptoIPL is ERC721 {
         // update price.
         if (sellingPrice < firstStepLimit) {
             // price increase for first stage.
-            participantToPrice[_tokenId] = uint256(SafeMath.div(SafeMath.mul(sellingPrice, 100), 94));
+            participantToPrice[_tokenId] = uint256(SafeMath.div(SafeMath.mul(sellingPrice, 200), 94));
         } else if (sellingPrice < secondStepLimit) {
             //price increase for the second stage.
             participantToPrice[_tokenId] = uint256(SafeMath.div(SafeMath.mul(sellingPrice, 120), 94));
